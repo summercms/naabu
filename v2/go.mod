@@ -1,11 +1,9 @@
 module github.com/projectdiscovery/naabu/v2
 
-go 1.14
+go 1.24.0
 
 require (
-	github.com/golang/snappy v0.0.2 // indirect
 	github.com/google/gopacket v1.1.19
-	github.com/logrusorgru/aurora v2.0.3+incompatible // indirect
 	github.com/phayes/freeport v0.0.0-20180830031419-95f893ade6f2
 	github.com/projectdiscovery/cdncheck v0.0.1
 	github.com/projectdiscovery/clistats v0.0.7
@@ -16,8 +14,20 @@ require (
 	github.com/projectdiscovery/mapcidr v0.0.5-0.20201116215403-0ced4c4d2041
 	github.com/remeh/sizedwaitgroup v1.0.0
 	go.uber.org/ratelimit v0.1.0
-	golang.org/x/crypto v0.0.0-20201208171446-5f87f3452ae9 // indirect
-	golang.org/x/net v0.0.0-20201209123823-ac852fbbde11
-	golang.org/x/sys v0.0.0-20201207223542-d4d67f95c62d // indirect
+	golang.org/x/net v0.47.0
 	gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776
+)
+
+require (
+	github.com/golang/snappy v0.0.2 // indirect
+	github.com/logrusorgru/aurora v2.0.3+incompatible // indirect
+	github.com/miekg/dns v1.1.35 // indirect
+	github.com/projectdiscovery/hmap v0.0.1 // indirect
+	github.com/projectdiscovery/retryabledns v1.0.5 // indirect
+	github.com/syndtr/goleveldb v1.0.0 // indirect
+	github.com/yl2chen/cidranger v1.0.2 // indirect
+	go.uber.org/atomic v1.7.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
 )
